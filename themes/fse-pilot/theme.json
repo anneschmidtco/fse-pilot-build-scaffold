@@ -5,87 +5,211 @@
 		"appearanceTools": true,
 		"useRootPaddingAwareAlignments": true,
 		"color": {
+            "defaultPalette": false,
 			"palette": [
 				{
 					"color": "#ffffff",
-					"name": "Base",
+					"name": "Base One",
 					"slug": "base"
 				},
+                {
+                    "color": "#f7f7f7",
+                    "name": "Base Two",
+                    "slug": "base-two"
+                },
 				{
-					"color": "#333333",
-					"name": "Contrast",
+					"color": "#1F1F1F",
+					"name": "Contrast One",
 					"slug": "contrast"
 				},
 				{
-					"color": "#000000",
-					"name": "Primary",
-					"slug": "primary"
+					"color": "#767676",
+					"name": "Contrast Two",
+					"slug": "contrast-two"
 				},
 				{
-					"color": "#006ba1",
-					"name": "Secondary",
-					"slug": "secondary"
+					"color": "#d2d3d4",
+					"name": "Contrast Three",
+					"slug": "contrast-three"
 				},
 				{
-					"color": "#F0F0F0",
-					"name": "Tertiary",
-					"slug": "tertiary"
-				}
+					"color": "#006DB7",
+					"name": "Accent One",
+					"slug": "accent-one"
+				},
+                {
+                    "color": "#FFCF00",
+                    "name": "Accent Two",
+                    "slug": "accent-two"
+                }
 			]
 		},
 		"layout": {
-			"contentSize": "620px",
-			"wideSize": "1000px"
+			"contentSize": "640px",
+			"wideSize": "1216px"
 		},
 		"spacing": {
-			"units": ["%", "px", "em", "rem", "vh", "vw"]
+			"units": ["%", "px", "em", "rem", "vh", "vw"],
+        "spacingSizes": [
+          {
+            "name": "1",
+            "size": "4px",
+            "slug": "10"
+          },
+          {
+            "name": "2",
+            "size": "8px",
+            "slug": "20"
+          },
+          {
+            "name": "3",
+            "size": "12px",
+            "slug": "30"
+          },
+          {
+            "name": "4",
+            "size": "16px",
+            "slug": "40"
+          },
+          {
+            "name": "5",
+            "size": "24px",
+            "slug": "50"
+          },
+          {
+            "name": "6",
+            "size": "32px",
+            "slug": "60"
+          },
+          {
+            "name": "7",
+            "size": "48px",
+            "slug": "70"
+          },
+          {
+            "name": "8",
+            "size": "64px",
+            "slug": "80"
+          },
+          {
+            "name": "9",
+            "size": "80px",
+            "slug": "90"
+          },
+          {
+            "name": "10",
+            "size": "96px",
+            "slug": "100"
+          },
+          {
+            "name": "11",
+            "size": "128px",
+            "slug": "110"
+          }
+        ]
 		},
 		"typography": {
 			"fluid": true,
 			"fontFamilies": [
-				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
-				}
-			],
+                  {
+                      "fontFamily": "\"Barlow Condensed\", sans-serif",
+                      "name": "Barlow Condensed",
+                      "slug": "barlow-condensed",
+                      "fontFace": [
+                          {
+                              "fontFamily": "Barlow Condensed",
+                              "fontWeight": "700",
+                              "fontStyle": "regular",
+                              "src": [ "file:./assets/fonts/BarlowCondensed-Bold.woff2" ]
+                          }
+                      ]
+                  },
+                  {
+                      "fontFamily": "\"Plus Jakarta Sans\", sans-serif",
+                      "name": "Plus Jakarta Sans",
+                      "slug": "plus-jakarta-sans",
+                      "fontFace": [
+                          {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontWeight": "400",
+                              "fontStyle": "regular",
+                              "src": [ "file:./assets/fonts/PlusJakartaSans-Regular.woff2" ]
+                          },
+                          {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontWeight": "400",
+                              "fontStyle": "italic",
+                              "src": [ "file:./assets/fonts/PlusJakartaSans-Italic.woff2" ]
+                          },
+                          {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontWeight": "500",
+                              "fontStyle": "regular",
+                              "src": [ "file:./assets/fonts/PlusJakartaSans-Medium.woff2" ]
+                          },
+                          {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontWeight": "400",
+                              "fontStyle": "italic",
+                              "src": [ "file:./assets/fonts/PlusJakartaSans-MediumItalic.woff2" ]
+                          },
+                          {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontWeight": "700",
+                              "fontStyle": "regular",
+                              "src": [ "file:./assets/fonts/PlusJakartaSans-Bold.woff2" ]
+                          },
+                          {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontWeight": "700",
+                              "fontStyle": "italic",
+                              "src": [ "file:./assets/fonts/PlusJakartaSans-BoldItalic.woff2" ]
+                          },
+                          {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontWeight": "800",
+                              "fontStyle": "regular",
+                              "src": [ "file:./assets/fonts/PlusJakartaSans-ExtraBold.woff2" ]
+                          },
+                          {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontWeight": "800",
+                              "fontStyle": "italic",
+                              "src": [ "file:./assets/fonts/PlusJakartaSans-ExtraBoldItalic.woff2" ]
+                          }
+                      ]
+                  } ],
 			"fontSizes": [
+                {
+                    "name": "Tiny",
+                    "size": "14px",
+                    "slug": "tiny"
+                },
 				{
-					"fluid": {
-						"min": "0.825rem",
-						"max": "1.0625rem"
-					},
 					"name": "Small",
-					"size": "1rem",
+					"size": "16px",
 					"slug": "small"
 				},
 				{
-					"fluid": {
-						"min": "1rem",
-						"max": "1.25rem"
-					},
 					"name": "Medium",
-					"size": "1.125rem",
+					"size": "18px",
 					"slug": "medium"
 				},
 				{
-					"fluid": {
-						"min": "1.75rem",
-						"max": "2rem"
-					},
 					"name": "Large",
-					"size": "1.75rem",
+					"size": "21px",
 					"slug": "large"
 				},
 				{
-					"fluid": {
-						"min": "2.5rem",
-						"max": "3rem"
-					},
 					"name": "Extra Large",
-					"size": "3rem",
+					"size": "24px",
 					"slug": "x-large"
-				}
+				},
+                {
+                  "name": "Huge",
+                  "size": "32px",
+                  "slug": "huge"
+                }
 			]
 		}
 	},
